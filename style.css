@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+/*manda tudo no codigo quando nao definido*/
+
+}
+
+body{
+    background-color: white;    /*o corpo do site*/
+    font-size: 20px;
+}
+.topo{
+    width: 100%;
+    display: flex;              /*o conteiner do inicio do codigo aonde os inputs fica dentro*/
+    justify-content: center;
+    background-color: blue;
+}
+.Conteiner-topo{
+    background-color: blueviolet;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;        
+    justify-items: center;
+    width: 900px;
+    height: 150px;
+}
+.Conteiner-topo > div{
+    padding: 10px;  /*espacamento dos quadrados*/
+}
+.Conteiner-topo > div p{
+    font-size: 20px;
+    text-align: center;
+}
+.Conteiner-topo > div input{
+    height: 30px;
+    width: 200px;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+/*main*/
+
+.Conteiner-conteudo-principal{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+.sessao-conteudo-principal{
+    background-color: brown;
+    width: 900px;
+    height: 600px;
+    display: grid;
+    grid-template-columns: 0.5fr 1.5fr 1fr;
+    padding: 50px 0px;
+}
+.Conteiner-modificadores{
+    background-color: chartreuse;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 30px;
+}
+
+.Conteiner-modificadores >div p {
+
+    text-align: center;
+    font-style: italic;
+}
+
+.Conteiner-modificadores >div input{
+
+    border-radius: 5px;
+    height: 30px;
+    padding-left: 10px;
+}
+
+.Conteiner-vdv-img{
+    
+    display: flex;
+    flex-direction: column;
+    background-color: deepskyblue;
+}
+
+.vdv{
+
+    width: 100%;
+    height: 150px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+    padding-left: 50px;
+}
+
+.vdv >div p{
+
+    text-align: center;
+    font-size: 25px;
+}
+
+.vdv >div input{
+
+    border-radius: 5px;
+    height: 30px;
+    width: 95%;
+    padding: 5px;
+}
+
+.Conteiner-img{
+
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Conteiner-img img{
+
+    width: 60%;
+    height: 80%;
+}
